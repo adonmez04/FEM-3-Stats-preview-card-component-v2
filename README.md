@@ -1,18 +1,32 @@
-# Frontend Mentor - Stats preview card component v2
+# Frontend Mentor - Stats preview card component v2.0
 
-![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
+**Table of Contents**
 
-## Links
-
-- [My Solution Page](https://www.frontendmentor.io/solutions/fem3statspreviewcardcomponentv21-the-mobile-first-solution-xI-gTwSLwB)
-
-- [The Live Site](https://adonmez04.github.io/FEM-3-Stats-preview-card-component-v2/)
-
-- [The Challenge Page: Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
+- [Frontend Mentor - Stats preview card component v2.0](#frontend-mentor---stats-preview-card-component-v20)
+  - [Welcome! 👋](#welcome-)
+  - [Links](#links)
+  - [Overview](#overview)
+  - [The Problems and Solutions](#the-problems-and-solutions)
+  - [Good Implementations](#good-implementations)
+  - [Author](#author)
 
 ## Welcome! 👋
 
-Welcome to my solution page. This is my second solution for this project. I don't want to focus on another project before my current project looks the same as the design file. I believe this is very useful for me. That's why I spend lots of time on my projects. Thus, I get experience in each solution and perspective. I recommend this style to everyone.
+Welcome to my solution page. I hope you'll find some good implemantions for this project here.
+
+![Stats preview card component](./design/desktop-preview.jpg)
+
+## Links
+
+- [My Live Site](https://adonmez04.github.io/Stats-preview-card-component-v2.0/)
+
+- [My Solution Page](https://www.frontendmentor.io/solutions/fem3statspreviewcardcomponentv21-the-mobile-first-solution-xI-gTwSLwB)
+
+- [The Challenge Page](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
+
+## Overview
+
+This is my second solution for this project. I don't want to focus on another project before my current project looks the same as the design file. I believe this is very useful for me. That's why I spend lots of time on my projects. Thus, I get experience in each solution and perspective. I recommend this style to everyone.
 
 I checked some good solutions and I got a comment about my first solution. I applied them to my project. I can pass the project now because it looks the same as the design file.
 
@@ -65,10 +79,6 @@ And I wrote my class names again according to BEM notation. I think I passed a m
 ## Good Implementations
 
 - [There is a good comment here.](https://www.frontendmentor.io/solutions/stats-preview-card-component-ac79OEYBh_)
-
-## Acknowledgments
-
-- Thanks Hassia Issah for the comment. [@Hassiai](https://www.frontendmentor.io/profile/Hassiai)
 
 ## Author
 
