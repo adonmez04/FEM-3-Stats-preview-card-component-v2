@@ -1,0 +1,152 @@
+/* The Mobile First Solution */
+/* Under 750px */
+
+/**************************/
+/* The Global Styles */
+/**************************/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 0.9375rem;
+  background: #0a0c1c;
+
+  /* To center the content */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The Flex-col Template */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* The Grid Template */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+/**************************/
+/* The Component Styles */
+/**************************/
+
+.section-card {
+  width: 20.4375rem;
+  overflow: hidden;
+
+  background: #1b1937;
+  box-shadow: 0 1.25rem 1.25rem -0.625rem rgba(23, 25, 41, 0.203087);
+  border-radius: 0.5rem;
+
+  /* The Grid Template */
+  row-gap: 2.5rem;
+
+  /* temp */
+  /* height: 48.75rem; */
+}
+
+.section-card__img-area {
+  background: #ab5cdb;
+}
+
+.section-card__img {
+  background-image: url(./images/image-header-mobile.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  mix-blend-mode: multiply;
+  opacity: 0.7411;
+
+  width: 100%;
+  height: 15rem;
+}
+
+.section-card__content-area {
+  padding: 0 1.9688rem 2rem 1.9688rem;
+
+  /* The Flex-col Template */
+  gap: 2.5rem;
+}
+
+.section-card__text-area {
+  /* The Flex-col Template */
+  gap: 1rem;
+}
+
+.section-card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section-card__title-span {
+  color: #ab5cdb;
+}
+
+.section-card__description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+/* The Iteration Area */
+
+.section-card__info-area {
+  /* The Flex-col Template */
+  gap: 1.5rem;
+}
+
+.section-card__info-box {
+  /* The Flex-col Template */
+  gap: 0.125rem;
+}
+
+.section-card__info-number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section-card__info-text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.5625rem;
+  text-align: center;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}

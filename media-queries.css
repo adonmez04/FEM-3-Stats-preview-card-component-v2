@@ -1,0 +1,103 @@
+/* Above 750px */
+
+@media (min-width: 46.875em) {
+  /**************************/
+  /* The Global Styles */
+  /**************************/
+
+  /* The Flex-col Template */
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  /* The Grid Template */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+  }
+  /**************************/
+  /* The Component Styles */
+  /**************************/
+
+  .section-card {
+    width: 69.375rem;
+
+    /* The Grid Template */
+    column-gap: 5.9375rem;
+
+    /* temp */
+    /* height: 27.875rem; */
+  }
+
+  .section-card__img {
+    background-image: url(./images/image-header-desktop.jpg);
+
+    width: 100%;
+    height: 27.875rem;
+  }
+
+  .section-card__img-area {
+    /* The Grid Template */
+    grid-column: 2/3;
+    grid-row: 1/1;
+  }
+
+  .section-card__img {
+    width: 33.75rem;
+    height: 27.875rem;
+  }
+
+  .section-card__content-area {
+    padding: 4.4375rem 0 3.6875rem 4.4688rem;
+
+    /* The Flex-col Template */
+    gap: 4.5rem;
+  }
+
+  .section-card__text-area {
+    /* The Flex-col Template */
+    gap: 1.5625rem;
+  }
+
+  .section-card__title {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 0.0313rem;
+  }
+
+  .section-card__description {
+    width: 23.375rem;
+    text-align: left;
+  }
+
+  /* The Iteration Area */
+
+  .section-card__info-area {
+    /* The Flex-col Template - row */
+    flex-direction: row;
+    gap: 3.75rem;
+  }
+
+  .section-card__info-box {
+    /* The Flex-col Template */
+    gap: 0.125rem;
+  }
+
+  .section-card__info-box:first-child {
+    margin-right: 0.1875rem;
+  }
+
+  .section-card__info-number {
+    text-align: left;
+  }
+
+  .section-card__info-text {
+    text-align: left;
+  }
+}
